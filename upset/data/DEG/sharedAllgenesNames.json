@@ -1,0 +1,21 @@
+{
+	"file": "data/DEG/sharedAllgenesNames.csv",
+	"name": "Differentially expressed genes (names)",
+	"header": 0,
+	"separator": ";",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "Gene" },
+		{"type": "string:", "index": 5, "name": "Chromosome"},
+		{"type": "string:", "index": 6, "name": "Accession"},
+		{"type": "int:", "index": 7, "name": "Start"},
+		{"type": "int:", "index": 8, "name": "End"},
+		{ "type": "string", "index": 9, "name": "Description"}
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 4 }
+    ],
+    "author": "Seth Barribeau",
+	"description": "Differentially expressed genes under four treatments in two laboratories. Queens were primed orally (Finland) against AFB or CB without subsequent offspring infection, or via injection (North Carolina) to AFB with subsequent AFB infection or sham infection.",
+    "source": "Labs of Dalial Freitak (University of Graz) and Seth Barribeau (University of Liverpool)"
+}

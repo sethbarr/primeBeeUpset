@@ -1,0 +1,16 @@
+{
+	"file": "data/GenesUnderSel_All/GenesUnderSel_All.tsv",
+	"name": "All genes under selection ",
+	"header": 0,
+	"separator": "\t",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "Gene" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 28 }
+    ],
+    "author": "Lauren Mee & Seth Barribeau",
+    "description": "Genes showing signs of positive selection under different PAML models ",
+    "source": "Barribeau Lab, University of Liverpool"
+}

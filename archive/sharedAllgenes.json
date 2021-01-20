@@ -1,0 +1,16 @@
+{
+	"file": "data/DEG/sharedAllgenes.csv",
+	"name": "Differentially expressed genes ",
+	"header": 0,
+	"separator": ";",
+	"skip": 0,
+	"meta": [
+		{ "type": "id", "index": 0, "name": "Gene" }
+	],
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 4 }
+    ],
+    "author": "Seth Barribeau",
+    "description": "Differentially expressed genes under four treatments in two laboratories. Dal.primed.AFB.Sham = Finland, orally primed vs unprimed with AFB no infection, Dal.primed.CB.Sham = Finland, orally primed vs unprimed with CB no infection, Seth.primed.AFB.Sham = North Carolina, injection primed vs sham primed with AFB no infection, Seth.primed.AFB.Infected = North Carolina, injection primed vs unprimed with AFB infected with AFB. ",
+    "source": "Labs of Dalial Freitak and Seth Barribeau"
+}
